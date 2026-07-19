@@ -4,17 +4,17 @@ public class Operator {
         angkaPertama = 20;
         angkaKedua = 5;
 
-        int Penjumlahan, Pengurangan, Perkalian, Pembagian, Modulo;
-        Penjumlahan = angkaPertama + angkaKedua;
-        Pengurangan = angkaPertama - angkaKedua;
-        Perkalian = angkaPertama * angkaKedua;
-        Pembagian = angkaPertama / angkaKedua;
-        Modulo = angkaPertama % angkaKedua;
+        int penjumlahan, pengurangan, perkalian, pembagian, modulo;
+        penjumlahan = angkaPertama + angkaKedua;
+        pengurangan = angkaPertama - angkaKedua;
+        perkalian = angkaPertama * angkaKedua;
+        pembagian = angkaPertama / angkaKedua;
+        modulo = angkaPertama % angkaKedua;
 
-        System.out.println("Hasil penjumlahan: "+ Penjumlahan);
-        System.out.println("Hasil pengurangan: "+ Pengurangan);
-        System.out.println("Hasil Perkalian: "+ Perkalian);
-        System.out.println("Hasil Pembagian: "+ Pembagian);
-        System.out.println("Hasil sisa bagi / modulo: "+ Modulo);
+        System.out.println("Hasil penjumlahan: "+ penjumlahan);
+        System.out.println("Hasil pengurangan: "+ pengurangan);
+        System.out.println("Hasil Perkalian: "+ perkalian);
+        System.out.println("Hasil Pembagian: "+ pembagian);
+        System.out.println("Hasil sisa bagi / modulo: "+ modulo);
     }
 }
