@@ -1,7 +1,7 @@
 package LatihanOperator;
 
 public class MenghitungGajiBersih {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int gajiPokok, bonus, potongan;
         gajiPokok = 5000000;
         bonus = 750000;
@@ -10,7 +10,7 @@ public class MenghitungGajiBersih {
         int totalGajiSebelumPotongan = gajiPokok + bonus;
         int totalGajiSetelahPotongan = (gajiPokok + bonus) - potongan;
 
-        System.out.println("Total gaji sebelum dipotong: Rp"+ totalGajiSebelumPotongan);
-        System.out.println("Total gaji setelah potong: Rp"+ totalGajiSetelahPotongan);
+        System.out.println("Total gaji sebelum dipotong: Rp" + totalGajiSebelumPotongan);
+        System.out.println("Total gaji setelah potong: Rp" + totalGajiSetelahPotongan);
     }
 }

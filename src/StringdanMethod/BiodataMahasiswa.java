@@ -1,8 +1,9 @@
 package StringdanMethod;
+
 import java.util.Scanner;
 
 public class BiodataMahasiswa {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("== Biodata Mahasiswa ==");
@@ -25,11 +26,10 @@ public class BiodataMahasiswa {
         System.out.println();
 
         System.out.println("== Biodata Mahasiswa ==");
-        System.out.println("Nama       : "+ namaMahasiswa);
-        System.out.println("NIM        : "+ nimMahasiswa);
-        System.out.println("Prodi      : "+ prodiMahasiswa);
-        System.out.println("Universitas: "+ namaUniversitas);
-
+        System.out.println("Nama       : " + namaMahasiswa);
+        System.out.println("NIM        : " + nimMahasiswa);
+        System.out.println("Prodi      : " + prodiMahasiswa);
+        System.out.println("Universitas: " + namaUniversitas);
 
         input.close();
     }
