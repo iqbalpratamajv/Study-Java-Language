@@ -2,6 +2,7 @@ package Percabangan;
 
 import java.util.Scanner;
 
+
 public class MenentukanBilangan {
     
     private static final int BILANGAN_POSITIF = 0;
@@ -15,6 +16,7 @@ public class MenentukanBilangan {
         }
         return "bilangan 0";
     }
+    
 
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);

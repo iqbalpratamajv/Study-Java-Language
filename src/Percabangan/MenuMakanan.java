@@ -2,6 +2,7 @@ package Percabangan;
 
 import java.util.Scanner;
 
+
 public class MenuMakanan {
 
     public static void menuMasakan() {
@@ -19,7 +20,7 @@ public class MenuMakanan {
             default -> "Tidak ada pilihan";
         };
     }
-
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
