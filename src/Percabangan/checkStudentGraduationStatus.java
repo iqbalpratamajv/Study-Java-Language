@@ -2,7 +2,7 @@ package Percabangan;
 
 import java.util.Scanner;
 
-public class checkStudentGraduationStatus {
+public class CheckStudentGraduationStatus {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
@@ -12,15 +12,20 @@ public class checkStudentGraduationStatus {
     System.out.print("Masukkan nilai siswa: ");
     int studentGrades = input.nextInt();
 
-    if (studentGrades >= 90) {
-      System.out.println(studentName + " Mendapat nilai A");
-    } else if (studentGrades >= 80) {
-      System.out.println(studentName + " Mendapat nilai B");
-    } else if (studentGrades >= 70) {
-      System.out.println(studentName + " MEndapat nilai C");
-    } else {
-      System.out.println(studentName + " Mendapat nilai D");
-    }
+    String grade = gradePredicate(studentGrades);
+
+    System.out.println(studentName + " Mendapatkan nilai " + grade);
+
     input.close();
+  }
+
+  private static String gradePredicate(int grades) {
+    if (grades >= 90)
+      return "A";
+    if (grades >= 80)
+      return "B";
+    if (grades >= 70)
+      return "C";
+    return "D";
   }
 }
